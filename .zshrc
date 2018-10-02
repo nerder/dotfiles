@@ -67,6 +67,7 @@ plugins=(
   github
   zsh-syntax-highlighting
   zsh-autosuggestions
+  osx
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -101,3 +102,4 @@ export PATH=~/.npm-global/bin:$PATH
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias cat='bat'
+alias git='hub'
